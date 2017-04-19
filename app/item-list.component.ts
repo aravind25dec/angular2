@@ -4,7 +4,7 @@ import {Component} from "angular2/core"
     selector: "my-list",
     template: `<h2>List of developers</h2>
     <ul>
-        <li *ngFor="#myItem of itemList">{{myItem.itemName}}</li>
+        <li *ngFor="#myItem of itemList">{{myItem.name}}</li>
     </ul>`
 })
 

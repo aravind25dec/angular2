@@ -3,7 +3,8 @@ import {ItemComponent} from "./item-list.component"
 
 @Component({
     selector: "my-app",
-    tempalte: "<my-list></mylist>",
+    template: "<my-list></my-list>",
     directives: [ItemComponent]
 })
 
+export class MyTemplate { }
