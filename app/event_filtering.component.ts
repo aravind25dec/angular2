@@ -1,4 +1,4 @@
-import {Component} from "angular2/core"
+import {Component} from "angular2/core";
 
 @Component({
     selector: 'my-app',
@@ -9,4 +9,7 @@ import {Component} from "angular2/core"
     `
 })
 
-export class EventFilteringComponent {}
+export class EventFilteringComponent 
+{ 
+    values='';
+}
